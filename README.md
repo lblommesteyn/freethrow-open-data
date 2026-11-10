@@ -72,3 +72,12 @@ angle, and 310 have pose tracking. Blank cells mean "not measured".
 - Face joints are resolved less often than body joints.
 - The ball is not tracked in the pose files.
 - Shots are a subset of all playoff free throws, chosen by what could be measured, not at random.
+
+## Licence
+
+The dataset in this repository is released under the
+[Creative Commons Attribution 4.0 International licence](LICENSE) (CC BY 4.0). You may use, share and adapt it,
+provided you give credit.
+
+The licence covers only this dataset and its documentation. It grants no rights in any game footage or broadcast,
+or in any names, logos or trademarks of the NBA, its teams or its players.
