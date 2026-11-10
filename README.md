@@ -1,9 +1,13 @@
 # Free Throw Open Data
 
-Shot-level measurements of free throws from the 2026 NBA Playoffs: where the ball entered the rim, and 3D body
-tracking of the shooter through the shooting motion.
+Independently generated, video-derived estimates of free-throw biomechanics and shot-entry characteristics from the
+2026 NBA Playoffs: where the ball entered the rim, and 3D body tracking of the shooter through the shooting motion.
 
-All values are estimates made from game video. They are not sensor measurements and carry estimation error.
+> **Not affiliated with the NBA.** This is an independent project. It is not affiliated with, endorsed by, sponsored
+> by, or produced in association with the National Basketball Association, its teams, or its players. It is not
+> official NBA data. Team and player names are used only to identify the shots described.
+
+All values are estimates. They are not sensor measurements and carry estimation error.
 
 ## Contents
 
