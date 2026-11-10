@@ -19,6 +19,18 @@ All values are estimates. They are not sensor measurements and carry estimation 
 Not every shot has every measurement: 949 have a left/right rim entry, 601 have a short/long rim entry and entry
 angle, and 310 have pose tracking. Blank cells mean "not measured".
 
+## A look at the data
+
+![Counts of free throws by which measurements are available, and the number of free throws per shooter](figures/coverage.png)
+
+![Rim entry positions seen from above, and distributions of left/right entry, short/long entry and entry angle for made and missed shots](figures/rim_entry.png)
+
+![Distributions of wrist height at release, elbow angle at release and deepest knee bend, computed from the pose files](figures/shooting_form.png)
+
+The figures are drawn from the files in `data/` by [`figures/make_figures.py`](figures/make_figures.py)
+(`pip install numpy matplotlib`). The shooting-form measures are examples computed from the joint tracks, not
+columns in the dataset.
+
 ## `free_throws.csv`
 
 | column | meaning |
